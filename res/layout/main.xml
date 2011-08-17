@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="alpha" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <SeekBar android:id="@+id/seekBar1" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="191" android:progress="32"></SeekBar>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:visibility="gone">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="bar height"></TextView>
+    <EditText android:inputType="number" android:maxLength="3" android:text="64" android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+<CheckBox android:text="auto start" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+<CheckBox android:text="use location" android:id="@+id/checkBox2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone"></CheckBox>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_gravity="right" android:text=" " android:gravity="bottom" android:layout_weight="1"></TextView>
+<Button android:text="start/stop" android:id="@+id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_gravity="right" android:text="ver.002" android:gravity="bottom"></TextView>
+</LinearLayout>
